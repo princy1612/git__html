@@ -1,6 +1,6 @@
 node {
    stage('Git checkout') { // for display purposes
-      git ''
+      git 'https://github.com/princy1612/git__html.git'
    }
    stage('Smoke') {
         try {
